@@ -48,9 +48,9 @@ public class Tutorial1 {
             By.xpath("//h1[normalize-space()='Your Account Has Been Created!']"))).isDisplayed();
 
         if (isDisplayed) {
-            System.out.println("✅ Account created successfully with email: " + email);
+            System.out.println("Account created successfully with email: " + email);
         } else {
-            System.out.println("❌ Account creation failed");
+            System.out.println(" Account creation failed");
         }
 
         driver.quit();
